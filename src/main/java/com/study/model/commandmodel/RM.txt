@@ -5,6 +5,6 @@
 4.处理者（Handler|OtherHandler） - 真正的方法体；
 
 在junit3中：
-junit（实则是TestRunner）是（invoker）；
+junit（实则是TestRunner）是 （invoker）；
 实现了TestCase的类是（CommandImpl）；
 junit传参（CommandImpl：我们自己编写的TestCaseImpl） - 调用call()；
