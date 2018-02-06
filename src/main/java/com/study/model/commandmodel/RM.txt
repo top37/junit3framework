@@ -8,3 +8,6 @@
 junit（实则是TestRunner）是 （invoker）；
 实现了TestCase的类是（CommandImpl）；
 junit传参（CommandImpl：我们自己编写的TestCaseImpl） - 调用call()；
+
+效果：invoker只需要执行自己相应的call()即可，不必管其他实现。
+junit： TestRunner -> doRun()

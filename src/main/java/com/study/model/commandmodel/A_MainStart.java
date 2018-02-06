@@ -5,10 +5,9 @@ import com.study.model.commandmodel.commands.CommandImpl_2;
 import com.study.model.commandmodel.handlers.HandlerImpl_1;
 import com.study.model.commandmodel.handlers.HandlerImpl_2;
 
-public class MainStart {
+public class A_MainStart {
     /**
      * 可以看出作为调用者而言，只需要传递一个实现Command的类，调用call()
-     * @param args
      */
     public static void main(String[] args) {
         //可以通过Handler接口松耦合的方式设置执行者
