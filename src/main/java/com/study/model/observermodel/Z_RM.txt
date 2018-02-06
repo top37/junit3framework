@@ -1,0 +1,11 @@
+copy - https://www.cnblogs.com/luohanguo/p/7825656.html
+观察者模式条件&理解：
+1.实现（implements）；
+2.服务端提供增，删，推送通知等功能
+3.客户端只有查询的功能。
+
+在junit3中：
+User - TestListener
+WeiChat - TestResult
+
+效果：服务端提供注册，取关，通知等方法（方法中参数为令牌接口，继承此接口的类就会有被服务器加载的权限）
